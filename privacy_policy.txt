@@ -43,23 +43,29 @@ The Game offers optional in-app purchases of virtual currency (gold and diamond 
 - Ad personalization: manage this at the device level, in your Android system settings (Google > Ads).
 - Google account data: to manage or delete data Google holds on your behalf (Play Games, Firebase, AdMob), visit https://myaccount.google.com.
 
-5. CHILDREN'S PRIVACY
+5. YOUR REGIONAL PRIVACY RIGHTS
+
+If you are located in the European Economic Area, the United Kingdom, or Turkiye, data protection laws (including the GDPR, UK GDPR, and Turkiye's KVKK) give you certain rights over the limited data described in Section 2 - including the right to access, correct, or request deletion of your data, to restrict or object to certain processing, and to receive a copy of your data in a portable format. Because we run no servers of our own and hold no searchable database of personal profiles, the most direct way to exercise these rights is the in-game "Delete My Data" feature (Section 4) together with your Google Account's own privacy controls (which govern the Firebase, AdMob, and Play Games data processed on our behalf). You can also contact us directly at the address in Section 10, and we will do our best to help within the limits of what we and our service providers can access.
+
+If you are a California resident, the CCPA/CPRA gives you similar rights to know, delete, and correct your personal information. We do not sell personal information for money. Ads served through Google AdMob may be considered "sharing" personal information (such as your Advertising ID) for cross-context behavioral advertising under CPRA's broad definition of that term; you can limit this at any time through your device's ad personalization settings (Google > Ads), as described in Section 4.
+
+6. CHILDREN'S PRIVACY
 
 The Game is a general-audience idle RPG and is not specifically directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us at the address below so we can address it.
 
-6. DATA RETENTION
+7. DATA RETENTION
 
 Local save data persists on your device until you uninstall the Game or use "Delete My Data." Cloud save data (Section 2b) persists on Google's servers until you delete it via "Delete My Data" or through your Google account settings. Analytics and crash data are retained by Firebase according to Google's own data retention policies.
 
-7. SECURITY
+8. SECURITY
 
 We rely on the security practices of Google's infrastructure (Firebase, Google Play Games, Google Play Billing, AdMob) for any data that leaves your device. No method of electronic storage or transmission is 100% secure, but we have not built and do not operate any of our own servers that could be independently compromised.
 
-8. CHANGES TO THIS POLICY
+9. CHANGES TO THIS POLICY
 
 We may update this Privacy Policy from time to time, for example when we add a new feature that changes what data is collected. The updated text will be reflected here and in the Game's Settings screen, with the "Last updated" date above revised accordingly. Continued use of the Game after a change means you accept the updated policy.
 
-9. CONTACT US
+10. CONTACT US
 
 If you have questions about this Privacy Policy or how your data is handled, contact us at:
 
