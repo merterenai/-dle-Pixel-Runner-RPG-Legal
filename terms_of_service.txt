@@ -1,0 +1,67 @@
+TERMS OF SERVICE
+
+Last updated: September 16, 2026
+
+These Terms of Service ("Terms") govern your use of Idle Pixel Runner RPG (the "Game"), published by Bagatone Interactive ("we," "us," "our"). By downloading, installing, or playing the Game, you agree to these Terms. If you do not agree, please do not use the Game.
+
+1. THE GAME
+
+Idle Pixel Runner RPG is a single-player, offline-first idle role-playing game for Android. There is no multiplayer, no chat, and no social interaction with other players of any kind.
+
+2. LICENSE TO USE
+
+We grant you a personal, non-exclusive, non-transferable, revocable license to install and play the Game on devices you own or control, for your own personal, non-commercial entertainment. You may not copy, modify, decompile, reverse-engineer, redistribute, or create derivative works from the Game or any of its assets (art, sound, code, or text), except where such restriction is prohibited by applicable law.
+
+3. VIRTUAL CURRENCY AND IN-APP PURCHASES
+
+The Game features virtual currencies (gold and diamonds) used only within the Game. Some amounts of these currencies can be purchased with real money through Google Play Billing.
+
+- Virtual currency has no real-world monetary value, cannot be exchanged for real money, and cannot be transferred outside the Game.
+- All purchases are processed by Google Play Billing under Google Play's own payment terms and refund policies. We do not process payments ourselves and do not store your payment information.
+- Purchases are generally final. If you believe a purchase was made in error or without authorization, please contact Google Play support, or reach out to us at the contact address below and we will do our best to help.
+- We may change the availability, pricing, or contents of any purchasable pack at any time.
+
+4. YOUR CONDUCT
+
+You agree not to:
+- Use any hack, cheat, exploit, bot, or third-party tool to modify the Game's behavior or falsify progress, currency, or purchases.
+- Attempt to gain unauthorized access to any part of the Game's infrastructure or the systems of our service providers (Google Play Games, Firebase, AdMob, Google Play Billing).
+- Use the Game for any unlawful purpose.
+
+5. ADVERTISEMENTS
+
+The Game may show optional rewarded video advertisements, served through Google AdMob, in exchange for an in-game bonus. Watching an ad is always your choice. We are not responsible for the content of third-party advertisements shown through AdMob.
+
+6. INTELLECTUAL PROPERTY
+
+All game content - including but not limited to characters, artwork, animations, music, sound effects, code, and text - is owned by Bagatone Interactive or its licensors and is protected by copyright and other intellectual property laws. Nothing in these Terms transfers any ownership of that content to you.
+
+7. THIRD-PARTY SERVICES
+
+The Game relies on third-party services to function, including Google Play Games Services (cloud save), Firebase (analytics and crash reporting), Google AdMob (advertising), and Google Play Billing (purchases). Your use of these services is also subject to Google's own terms and policies. We are not responsible for the availability or behavior of these third-party services.
+
+8. DISCLAIMER OF WARRANTIES
+
+The Game is provided "as is" and "as available," without warranties of any kind, whether express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the Game will be uninterrupted, error-free, or free of harmful components.
+
+9. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by applicable law, Bagatone Interactive shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, arising out of or related to your use of the Game, even if advised of the possibility of such damages. Our total liability for any claim arising from these Terms or the Game shall not exceed the amount you paid us, if any, in the twelve (12) months preceding the claim.
+
+10. TERMINATION
+
+We may suspend or discontinue the Game, or any feature of it, at any time, with or without notice. These Terms remain in effect until terminated by either party; you may terminate at any time by uninstalling the Game.
+
+11. CHANGES TO THESE TERMS
+
+We may update these Terms from time to time, for example when we add a new feature or purchasable item. The updated text will be reflected here and in the Game's Settings screen, with the "Last updated" date above revised accordingly. Continued use of the Game after a change means you accept the updated Terms.
+
+12. GOVERNING LAW
+
+These Terms are governed by the laws applicable in your country or region of residence, without regard to conflict-of-law principles, to the extent such laws apply to a digital product distributed through Google Play.
+
+13. CONTACT US
+
+If you have questions about these Terms, contact us at:
+
+bagatoneinteractive@gmail.com

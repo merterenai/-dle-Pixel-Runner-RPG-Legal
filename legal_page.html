@@ -1,0 +1,366 @@
+<meta charset="UTF-8">
+<title>Pixel Runner RPG Policies</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A0A14;
+    --bg-deep:#050508;
+    --panel:#14141F;
+    --panel-2:#1A1A2A;
+    --border:#4FD8BE;
+    --border-dim:#2A6E63;
+    --gold:#FFD700;
+    --text:#D8D8E8;
+    --text-muted:#8A8AA0;
+    --link:#6EEAD6;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{ background:var(--bg-deep); }
+  body{
+    color:var(--text);
+    font-family:'IBM Plex Sans', system-ui, sans-serif;
+    line-height:1.65;
+    font-size:16px;
+    position:relative;
+    overflow-x:hidden;
+  }
+
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    background-image:
+      radial-gradient(1.5px 1.5px at 8% 12%, rgba(79,216,190,0.55) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 22% 68%, rgba(255,215,0,0.4) 50%, transparent 51%),
+      radial-gradient(1px 1px at 38% 30%, rgba(216,216,232,0.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 55% 80%, rgba(79,216,190,0.35) 50%, transparent 51%),
+      radial-gradient(1px 1px at 68% 15%, rgba(216,216,232,0.3) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 82% 55%, rgba(255,215,0,0.3) 50%, transparent 51%),
+      radial-gradient(1px 1px at 91% 88%, rgba(79,216,190,0.4) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 14% 90%, rgba(216,216,232,0.25) 50%, transparent 51%);
+    background-size:100% 100%;
+    animation:twinkle 6s ease-in-out infinite;
+    z-index:0;
+  }
+  @media (prefers-reduced-motion: reduce){
+    body::before{ animation:none; }
+  }
+  @keyframes twinkle{
+    0%,100%{ opacity:1; }
+    50%{ opacity:0.55; }
+  }
+
+  .wrap{
+    position:relative;
+    z-index:1;
+    max-width:760px;
+    margin:0 auto;
+    padding-inline:20px;
+    padding-block:36px 72px;
+  }
+
+  .crest{ text-align:center; margin-bottom:22px; }
+  .crest .glyph{
+    font-size:2rem;
+    line-height:1;
+    filter:drop-shadow(0 0 6px rgba(79,216,190,0.5));
+  }
+  .crest h1{
+    font-family:'Press Start 2P', monospace;
+    font-size:0.92rem;
+    color:var(--gold);
+    letter-spacing:0.02em;
+    margin:14px 0 6px;
+    text-shadow:0 0 10px rgba(255,215,0,0.35);
+    text-wrap:balance;
+  }
+  .crest .studio{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem;
+    color:var(--text-muted);
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+  }
+  .crest .updated{
+    margin-top:10px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem;
+    color:var(--border);
+    min-height:1em;
+  }
+
+  .ledger{
+    position:relative;
+    background:var(--panel);
+    border:3px solid var(--border);
+    padding:clamp(20px, 5vw, 40px);
+    clip-path:polygon(
+      0 12px, 12px 12px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+  }
+  .ledger::before{
+    content:"";
+    position:absolute;
+    inset:6px;
+    border:1px solid var(--border-dim);
+    pointer-events:none;
+    clip-path:polygon(
+      0 8px, 8px 8px, 8px 0,
+      calc(100% - 8px) 0, calc(100% - 8px) 8px, 100% 8px,
+      100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%,
+      8px 100%, 8px calc(100% - 8px), 0 calc(100% - 8px)
+    );
+  }
+
+  nav.tabs{ display:flex; gap:10px; margin-bottom:26px; position:relative; z-index:1; }
+  nav.tabs button{
+    flex:1;
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600;
+    font-size:0.82rem;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    padding:12px 10px;
+    background:var(--panel-2);
+    color:var(--text-muted);
+    border:2px solid var(--border-dim);
+    cursor:pointer;
+    transition:background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+  }
+  nav.tabs button:hover{ color:var(--text); }
+  nav.tabs button:focus-visible{ outline:2px solid var(--gold); outline-offset:2px; }
+  nav.tabs button[aria-selected="true"]{
+    color:#03110E;
+    border-color:var(--border);
+    background:linear-gradient(180deg, var(--border) 0%, var(--border-dim) 100%);
+    font-weight:700;
+  }
+
+  article{ position:relative; z-index:1; }
+  article .lede{
+    color:var(--text-muted);
+    font-size:0.98rem;
+    margin-bottom:1.4em;
+    border-left:2px solid var(--border-dim);
+    padding-left:14px;
+  }
+
+  h2{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:1rem;
+    font-weight:700;
+    color:var(--gold);
+    letter-spacing:0.02em;
+    margin:1.8em 0 0.7em;
+    padding-bottom:6px;
+    border-bottom:1px dashed var(--border-dim);
+  }
+  h2:first-child{ margin-top:0; }
+  h2 .n{
+    font-family:'Press Start 2P', monospace;
+    font-size:0.68rem;
+    color:var(--border);
+    flex:0 0 auto;
+  }
+
+  p{ margin:0 0 1em; max-width:65ch; }
+  strong{ color:#EDEDF6; font-weight:600; }
+  a{ color:var(--link); text-decoration-color:var(--border-dim); }
+  a:hover{ text-decoration-color:var(--link); }
+
+  .contact{
+    display:inline-block;
+    margin-top:4px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.9rem;
+    color:var(--gold);
+    background:var(--panel-2);
+    border:1px solid var(--border-dim);
+    padding:6px 12px;
+  }
+
+  .status{
+    color:var(--text-muted);
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.85rem;
+  }
+  .status.error{ color:#FF8A8A; }
+
+  footer.page{
+    position:relative;
+    z-index:1;
+    margin-top:30px;
+    text-align:center;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem;
+    color:var(--text-muted);
+    letter-spacing:0.04em;
+  }
+
+  [hidden]{ display:none !important; }
+
+  @media (max-width:480px){
+    nav.tabs button{ font-size:0.7rem; padding:10px 6px; }
+    .crest h1{ font-size:0.78rem; }
+  }
+</style>
+
+<div class="wrap">
+  <div class="crest">
+    <div class="glyph">&#9876;&#65039;</div>
+    <h1>Idle Pixel Runner RPG</h1>
+    <div class="studio">Bagatone Interactive</div>
+    <div class="updated" id="updated-line"></div>
+  </div>
+
+  <div class="ledger">
+    <nav class="tabs" role="tablist" aria-label="Legal document">
+      <button role="tab" id="tab-privacy" aria-controls="panel-privacy" aria-selected="true">&#128274; Privacy Policy</button>
+      <button role="tab" id="tab-terms" aria-controls="panel-terms" aria-selected="false">&#128220; Terms of Service</button>
+    </nav>
+
+    <div id="panel-privacy" role="tabpanel" aria-labelledby="tab-privacy">
+      <article id="article-privacy"><p class="status">Loading privacy_policy.txt&hellip;</p></article>
+    </div>
+
+    <div id="panel-terms" role="tabpanel" aria-labelledby="tab-terms" hidden>
+      <article id="article-terms"><p class="status">Loading terms_of_service.txt&hellip;</p></article>
+    </div>
+  </div>
+
+  <footer class="page">&#9642;&#9642;&#9642; End of scroll &#9642;&#9642;&#9642;</footer>
+</div>
+
+<script>
+  (function(){
+    var tabPrivacy = document.getElementById('tab-privacy');
+    var tabTerms = document.getElementById('tab-terms');
+    var panelPrivacy = document.getElementById('panel-privacy');
+    var panelTerms = document.getElementById('panel-terms');
+
+    function show(which){
+      var isPrivacy = which === 'privacy';
+      panelPrivacy.hidden = !isPrivacy;
+      panelTerms.hidden = isPrivacy;
+      tabPrivacy.setAttribute('aria-selected', String(isPrivacy));
+      tabTerms.setAttribute('aria-selected', String(!isPrivacy));
+      try { history.replaceState(null, '', '#' + which); } catch(e){}
+    }
+    tabPrivacy.addEventListener('click', function(){ show('privacy'); });
+    tabTerms.addEventListener('click', function(){ show('terms'); });
+    if (location.hash === '#terms') show('terms');
+
+    // --- Single source of truth: fetch + parse the real .txt files ---
+    // (2026-09-16, user: "txt dosyalarını okuyacak şekilde yapalım ki
+    // sadece dosya değişikliği yeterli olsun") - this page renders
+    // whatever privacy_policy.txt and terms_of_service.txt (same
+    // directory as this page) actually contain, no hand-copied
+    // duplicate to keep in sync.
+    //
+    // Parser expects the plain format both files already use:
+    //   TITLE LINE
+    //   (blank)
+    //   Last updated: <date>
+    //   (blank)
+    //   intro paragraph(s)...
+    //   (blank)
+    //   1. SECTION NAME       <- a short ALL-CAPS "N. " line = a heading
+    //   (blank)
+    //   body paragraph(s)...
+    // Sub-bullets like "a) Local save data" inside a section just render
+    // as their own paragraph (bold lead-in is NOT reconstructed here -
+    // that was hand-formatting specific to the old hardcoded version;
+    // trading a little visual polish for a genuine single source of
+    // truth is the whole point of this change).
+    function escapeHtml(str){
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function linkify(escaped){
+      // Bare URLs and the one contact email get turned into real links/
+      // styling after escaping, so no raw HTML from the .txt can inject.
+      escaped = escaped.replace(/(https?:\/\/[^\s)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+      escaped = escaped.replace(/([\w.+-]+@[\w-]+\.[\w.-]+)/g, '<span class="contact">$1</span>');
+      return escaped;
+    }
+
+    function renderLegalText(raw, containerId, updatedLineId){
+      var container = document.getElementById(containerId);
+      var lines = raw.replace(/\r\n/g, '\n').split('\n');
+
+      // Pull "Last updated: ..." for the header, wherever it appears.
+      if (updatedLineId) {
+        var updatedMatch = raw.match(/Last updated:\s*(.+)/i);
+        if (updatedMatch) {
+          document.getElementById(updatedLineId).textContent =
+            '▪ Last updated ' + updatedMatch[1].trim() + ' ▪';
+        }
+      }
+
+      // Split into blank-line-separated blocks, dropping the title line
+      // and the "Last updated" line (already shown in the page header).
+      var blocks = raw.replace(/\r\n/g, '\n').trim().split(/\n\s*\n/);
+      var html = '';
+      var sectionOpen = false;
+      var skippedTitle = false;
+
+      blocks.forEach(function(block){
+        var trimmed = block.trim();
+        if (!trimmed) return;
+        if (/^Last updated:/i.test(trimmed)) return;
+        if (!skippedTitle) { skippedTitle = true; return; } // title line
+
+        var headingMatch = trimmed.match(/^(\d+)\.\s+([A-Z0-9 ,'&/-]+)$/);
+        if (headingMatch) {
+          if (sectionOpen) html += '</section>';
+          html += '<section><h2><span class="n">' +
+            headingMatch[1].padStart(2, '0') + '</span> ' +
+            escapeHtml(headingMatch[2].trim().replace(/^[A-Z]/, function(c){ return c; })) +
+            '</h2>';
+          sectionOpen = true;
+          return;
+        }
+
+        // First non-heading block before any section = the lede.
+        var isLede = !sectionOpen && html === '';
+        var paragraphs = trimmed.split(/\n(?=[a-z]?\)|\S)/).length > 1
+          ? [trimmed] // keep multi-line "a) ... \n text" blocks intact
+          : [trimmed];
+        paragraphs.forEach(function(p){
+          var safe = linkify(escapeHtml(p).replace(/\n/g, '<br>'));
+          html += '<p' + (isLede ? ' class="lede"' : '') + '>' + safe + '</p>';
+        });
+      });
+      if (sectionOpen) html += '</section>';
+
+      container.innerHTML = html || '<p class="status error">Nothing to display.</p>';
+    }
+
+    function loadLegalFile(path, containerId, updatedLineId){
+      fetch(path, { cache: 'no-store' })
+        .then(function(res){
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return res.text();
+        })
+        .then(function(text){ renderLegalText(text, containerId, updatedLineId); })
+        .catch(function(err){
+          document.getElementById(containerId).innerHTML =
+            '<p class="status error">Could not load ' + path + ' (' + err.message + '). ' +
+            'This page must be served over http(s), not opened directly as a file.</p>';
+        });
+    }
+
+    loadLegalFile('privacy_policy.txt', 'article-privacy', 'updated-line');
+    loadLegalFile('terms_of_service.txt', 'article-terms', null);
+  })();
+</script>

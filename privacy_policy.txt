@@ -1,0 +1,66 @@
+PRIVACY POLICY
+
+Last updated: September 16, 2026
+
+Bagatone Interactive ("we," "us," "our") operates the mobile game Idle Pixel Runner RPG (the "Game"). This Privacy Policy explains what information the Game collects, how it is used, and the choices you have. By playing the Game, you agree to the practices described below.
+
+1. SUMMARY
+
+Idle Pixel Runner RPG is a single-player, offline-first idle game. We do not require you to create an account, and we do not collect your name, email address, phone number, or any other personal information directly from you. The Game's core progress (stage, gold, items, upgrades) is stored locally on your device. The only data leaving your device is described in Section 2 below, and it exists solely to (a) let you optionally back up and restore your progress across devices, (b) keep the Game stable by catching crashes, and (c) show you optional rewarded video ads.
+
+2. INFORMATION WE COLLECT
+
+a) Local save data (stays on your device)
+Your progress - stage, level, gold, diamonds, orbs, inventory, upgrades, settings, and goal completion - is stored locally on your device using standard Android app storage (SharedPreferences). This data never leaves your device unless you sign in to Google Play Games (see below).
+
+b) Google Play Games Services (optional, cloud save)
+If you choose to sign in with your Google account (this happens silently in the background when Google Play Games is available on your device), we use Google Play Games Services' Saved Games (Snapshot) API to store a backup copy of your local save data on Google's servers, tied to your Google Play Games player ID. This is used only to let you continue your progress on a different device or after reinstalling the Game. We do not operate our own servers and never see or store this data ourselves - it is held entirely within Google's infrastructure under Google's own privacy practices (see https://policies.google.com/privacy). You can permanently delete this cloud save at any time from the Game's Settings screen ("Delete My Data").
+
+c) Analytics (Firebase Analytics)
+We use Firebase Analytics (a Google service) to understand how the Game is played in aggregate - for example, how far players progress, which features are used, and session length. This data is anonymized/aggregated by Firebase and may include device identifiers, general device information (model, OS version), and app usage events. We use this information only to improve game balance and features, never to identify you personally.
+
+d) Crash Reporting (Firebase Crashlytics)
+If the Game crashes or encounters an error, we use Firebase Crashlytics to automatically receive a crash report containing technical information (stack trace, device model, OS version, app version) so we can fix the problem. These reports do not contain your personal save data.
+
+e) Advertising (Google AdMob)
+The Game offers optional rewarded video ads (for example, a bonus to offline earnings) powered by Google AdMob. Watching an ad is always your choice - the Game never shows forced or interstitial ads. To serve and measure these ads, AdMob may collect your device's Advertising ID and ad interaction data, subject to Google's advertising policies and your device's ad personalization settings (you can reset or opt out of ad personalization in your device's system settings). We do not control what Google does with this data beyond what is described in Google's own privacy policy.
+
+f) In-App Purchases (Google Play Billing)
+The Game offers optional in-app purchases of virtual currency (gold and diamond packs). All payment processing is handled entirely by Google Play Billing - we never see or store your payment card details. We only receive confirmation that a purchase was completed, so we can grant the corresponding in-game currency.
+
+3. WHAT WE DO NOT DO
+
+- We do not require account creation or a password.
+- We do not collect your name, email, phone number, or physical address.
+- We do not have any chat, messaging, or social features, so we never collect content you might type to other players.
+- We do not sell your data to anyone, for any purpose.
+- We do not share your data with third parties other than the Google services listed in Section 2, which act strictly as service providers for the functions described above.
+
+4. YOUR CHOICES AND RIGHTS
+
+- Delete your data: at any time, from the Game's Settings screen, you can tap "Delete My Data" to permanently erase your local save data, your Google Play Games cloud save, and effectively sign yourself out - this action cannot be undone.
+- Restore Purchases / Restore Data: the Settings screen also lets you manually check for and resolve differences between your local and cloud save if you ever play on more than one device.
+- Ad personalization: manage this at the device level, in your Android system settings (Google > Ads).
+- Google account data: to manage or delete data Google holds on your behalf (Play Games, Firebase, AdMob), visit https://myaccount.google.com.
+
+5. CHILDREN'S PRIVACY
+
+The Game is a general-audience idle RPG and is not specifically directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us at the address below so we can address it.
+
+6. DATA RETENTION
+
+Local save data persists on your device until you uninstall the Game or use "Delete My Data." Cloud save data (Section 2b) persists on Google's servers until you delete it via "Delete My Data" or through your Google account settings. Analytics and crash data are retained by Firebase according to Google's own data retention policies.
+
+7. SECURITY
+
+We rely on the security practices of Google's infrastructure (Firebase, Google Play Games, Google Play Billing, AdMob) for any data that leaves your device. No method of electronic storage or transmission is 100% secure, but we have not built and do not operate any of our own servers that could be independently compromised.
+
+8. CHANGES TO THIS POLICY
+
+We may update this Privacy Policy from time to time, for example when we add a new feature that changes what data is collected. The updated text will be reflected here and in the Game's Settings screen, with the "Last updated" date above revised accordingly. Continued use of the Game after a change means you accept the updated policy.
+
+9. CONTACT US
+
+If you have questions about this Privacy Policy or how your data is handled, contact us at:
+
+bagatoneinteractive@gmail.com
