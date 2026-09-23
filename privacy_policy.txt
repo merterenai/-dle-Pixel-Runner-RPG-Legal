@@ -1,72 +1,99 @@
 PRIVACY POLICY
 
-Last updated: September 16, 2026
+Last updated: September 23, 2026
 
-Bagatone Interactive ("we," "us," "our") operates the mobile game Idle Pixel Runner RPG (the "Game"). This Privacy Policy explains what information the Game collects, how it is used, and the choices you have. By playing the Game, you agree to the practices described below.
+Bagatone Interactive ("we," "us," "our") operates the mobile game Idle Pixel Runner RPG (the "Game"). This Privacy Policy explains what information the Game collects, how it is used, who processes it, and the choices you have. By playing the Game, you agree to the practices described below. Sections marked "from version 1.0.0.6" describe online features (leaderboards, player-versus-player battles, and our own game servers) that apply starting with that version; earlier versions of the Game do not use them.
 
 1. SUMMARY
 
-Idle Pixel Runner RPG is a single-player, offline-first idle game. We do not require you to create an account, and we do not collect your name, email address, phone number, or any other personal information directly from you. The Game's core progress (stage, gold, items, upgrades) is stored locally on your device. The only data leaving your device is described in Section 2 below, and it exists solely to (a) let you optionally back up and restore your progress across devices, (b) keep the Game stable by catching crashes, and (c) show you optional rewarded video ads.
+Idle Pixel Runner RPG is an idle role-playing game that works offline for its core single-player progress. We never ask for your name, email address, phone number, or a password. Your progress is stored on your device. Starting with version 1.0.0.6, if you use the optional online features, a game account tied to your Google Play Games player ID is kept on our own servers so that leaderboards and battles between players can be run fairly and protected against cheating. We also use Google services (Play Games, Play Integrity, Firebase, AdMob, Play Billing) as described below. We do not sell your data.
 
 2. INFORMATION WE COLLECT
 
 a) Local save data (stays on your device)
-Your progress - stage, level, gold, diamonds, orbs, inventory, upgrades, settings, and goal completion - is stored locally on your device using standard Android app storage (SharedPreferences). This data never leaves your device unless you sign in to Google Play Games (see below).
+Your progress - stage, level, gold, diamonds, orbs, inventory, upgrades, allies, settings, and goal completion - is stored on your device using standard Android app storage. This data stays on your device unless you use the cloud save or the online features described below.
 
-b) Google Play Games Services (optional, cloud save)
-If you choose to sign in with your Google account (this happens silently in the background when Google Play Games is available on your device), we use Google Play Games Services' Saved Games (Snapshot) API to store a backup copy of your local save data on Google's servers, tied to your Google Play Games player ID. This is used only to let you continue your progress on a different device or after reinstalling the Game. We do not operate our own servers and never see or store this data ourselves - it is held entirely within Google's infrastructure under Google's own privacy practices (see https://policies.google.com/privacy). You can permanently delete this cloud save at any time from the Game's Settings screen ("Delete My Data").
+b) Google Play Games Services (cloud save)
+If you sign in with your Google account, we use Google Play Games Services' Saved Games API to store a backup copy of your save on Google's servers, tied to your Google Play Games player ID, so you can continue on another device or after reinstalling. This backup is held by Google under Google's own privacy practices (see https://policies.google.com/privacy).
 
-c) Analytics (Firebase Analytics)
-We use Firebase Analytics (a Google service) to understand how the Game is played in aggregate - for example, how far players progress, which features are used, and session length. This data is anonymized/aggregated by Firebase and may include device identifiers, general device information (model, OS version), and app usage events. We use this information only to improve game balance and features, never to identify you personally.
+c) Your game account on our servers (from version 1.0.0.6)
+When you use the online features, our servers store: your Google Play Games player ID (used as your identifier), your Play Games display name, your progress and gameplay events needed to verify that progress is genuine (for example stages cleared, upgrades bought, and battles played), your leaderboard entries and battle results, and related ranking data such as trophies. We use this data to provide leaderboards and battles, to match you with other players, and to detect and prevent cheating and abuse.
 
-d) Crash Reporting (Firebase Crashlytics)
-If the Game crashes or encounters an error, we use Firebase Crashlytics to automatically receive a crash report containing technical information (stack trace, device model, OS version, app version) so we can fix the problem. These reports do not contain your personal save data.
+d) Device and app integrity checks (from version 1.0.0.6)
+To protect fair play, the Game may ask Google Play Integrity to confirm that the Game is a genuine, unmodified copy running on a genuine device. Google returns a verdict to our servers; we use it only for fraud, cheating, and abuse prevention.
 
-e) Advertising (Google AdMob)
-The Game offers optional rewarded video ads (for example, a bonus to offline earnings) powered by Google AdMob. Watching an ad is always your choice - the Game never shows forced or interstitial ads. To serve and measure these ads, AdMob may collect your device's Advertising ID and ad interaction data, subject to Google's advertising policies and your device's ad personalization settings (you can reset or opt out of ad personalization in your device's system settings). We do not control what Google does with this data beyond what is described in Google's own privacy policy.
+e) Analytics
+We use Firebase Analytics (a Google service) to understand how the Game is played - for example how far players progress, which features are used, and session length. This may include device identifiers, general device information (model, OS version), and app usage events. From version 1.0.0.6 we are also moving to analyzing gameplay events on our own servers; where the law requires your consent for this, we ask for it first and do not send these events if you decline. We use analytics only to improve game balance and features.
 
-f) In-App Purchases (Google Play Billing)
-The Game offers optional in-app purchases of virtual currency (gold and diamond packs). All payment processing is handled entirely by Google Play Billing - we never see or store your payment card details. We only receive confirmation that a purchase was completed, so we can grant the corresponding in-game currency.
+f) Crash reporting (Firebase Crashlytics)
+If the Game crashes or encounters an error, Firebase Crashlytics sends us a technical report (stack trace, device model, OS version, app version) so we can fix the problem. These reports do not contain your personal save data.
 
-3. WHAT WE DO NOT DO
+g) Server logs (from version 1.0.0.6)
+Like most online services, our servers automatically record technical information about each request, including your IP address, the time, the Game version, and the request type. We use these logs for security, abuse prevention, and troubleshooting.
 
-- We do not require account creation or a password.
-- We do not collect your name, email, phone number, or physical address.
-- We do not have any chat, messaging, or social features, so we never collect content you might type to other players.
+h) Advertising (Google AdMob)
+The Game offers optional rewarded video ads powered by Google AdMob. Watching an ad is always your choice - the Game never shows forced or interstitial ads. To serve and measure these ads, AdMob may collect your device's Advertising ID and ad interaction data, subject to Google's advertising policies and your device's ad personalization settings.
+
+i) In-app purchases (Google Play Billing)
+The Game offers optional in-app purchases of virtual currency. All payment processing is handled by Google Play Billing - we never see or store your payment card details. We only receive confirmation that a purchase was completed so we can grant the corresponding in-game currency.
+
+3. WHAT OTHER PLAYERS CAN SEE
+
+If you use leaderboards or battles (from version 1.0.0.6), other players can see your Play Games display name and your ranking information (such as rank, trophies, and battle results). The Game has no chat or messaging, so we do not collect any messages you might write to other players. Your email address, phone number, and location are never shown to other players.
+
+4. WHAT WE DO NOT DO
+
+- We do not require a password or a separate account registration.
+- We do not collect your email address, phone number, physical address, or precise location.
 - We do not sell your data to anyone, for any purpose.
-- We do not share your data with third parties other than the Google services listed in Section 2, which act strictly as service providers for the functions described above.
+- We do not share your data with third parties other than our hosting provider and the Google services listed in Section 2, which act as service providers for the functions described.
 
-4. YOUR CHOICES AND RIGHTS
+5. WHERE YOUR DATA IS STORED AND WHO PROCESSES IT
 
-- Delete your data: at any time, from the Game's Settings screen, you can tap "Delete My Data" to permanently erase your local save data, your Google Play Games cloud save, and effectively sign yourself out - this action cannot be undone.
-- Restore Purchases / Restore Data: the Settings screen also lets you manually check for and resolve differences between your local and cloud save if you ever play on more than one device.
-- Ad personalization: manage this at the device level, in your Android system settings (Google > Ads).
-- Google account data: to manage or delete data Google holds on your behalf (Play Games, Firebase, AdMob), visit https://myaccount.google.com.
+Data held on our own servers (Section 2c, 2d, 2g, and our own analytics in 2e) is stored on servers located in Turkiye, operated by our hosting provider on our behalf. If you are in the European Economic Area or the United Kingdom, using the online features therefore means your data is processed in Turkiye; this is necessary to provide the online features you choose to use. Data handled by Google (Play Games, Play Integrity, Firebase, AdMob, Play Billing) is processed under Google's own terms and privacy practices.
 
-5. YOUR REGIONAL PRIVACY RIGHTS
+6. LEGAL BASES FOR PROCESSING
 
-If you are located in the European Economic Area, the United Kingdom, or Turkiye, data protection laws (including the GDPR, UK GDPR, and Turkiye's KVKK) give you certain rights over the limited data described in Section 2 - including the right to access, correct, or request deletion of your data, to restrict or object to certain processing, and to receive a copy of your data in a portable format. Because we run no servers of our own and hold no searchable database of personal profiles, the most direct way to exercise these rights is the in-game "Delete My Data" feature (Section 4) together with your Google Account's own privacy controls (which govern the Firebase, AdMob, and Play Games data processed on our behalf). You can also contact us directly at the address in Section 10, and we will do our best to help within the limits of what we and our service providers can access.
+Where data protection law such as the GDPR or KVKK requires a legal basis, we rely on: performance of our service to you (running your game account, leaderboards, and battles); our legitimate interests in keeping the Game secure, fair, and stable (integrity checks, anti-cheat, server logs, crash reports); and your consent (analytics on our own servers and ad personalization, where consent is required), which you can withdraw at any time.
 
-If you are a California resident, the CCPA/CPRA gives you similar rights to know, delete, and correct your personal information. We do not sell personal information for money. Ads served through Google AdMob may be considered "sharing" personal information (such as your Advertising ID) for cross-context behavioral advertising under CPRA's broad definition of that term; you can limit this at any time through your device's ad personalization settings (Google > Ads), as described in Section 4.
+7. YOUR CHOICES AND RIGHTS
 
-6. CHILDREN'S PRIVACY
+- Delete your data: at any time, from the Game's Settings screen, tap "Delete My Data" to permanently erase your local save, your Google Play Games cloud save, and, from version 1.0.0.6, your game account and all related records on our servers, including leaderboard and battle records. This cannot be undone.
+- Delete without the Game: if you can no longer open the Game, you can ask us to delete your data by emailing the address in Section 13. We may ask for details needed to confirm the request is yours, and we aim to respond within 30 days.
+- Analytics consent: you can withdraw your consent to analytics at any time from the Game's Settings screen.
+- Ad personalization: manage this in your Android system settings (Google > Ads).
+- Google account data: to manage or delete data Google holds (Play Games, Firebase, AdMob), visit https://myaccount.google.com.
 
-The Game is a general-audience idle RPG and is not specifically directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us at the address below so we can address it.
+8. YOUR REGIONAL PRIVACY RIGHTS
 
-7. DATA RETENTION
+If you are located in the European Economic Area, the United Kingdom, or Turkiye, data protection laws (including the GDPR, UK GDPR, and Turkiye's KVKK) give you rights over the data described in Section 2 - including the right to access, correct, or request deletion of your data, to restrict or object to certain processing, to receive a copy of your data in a portable format, and to lodge a complaint with your local data protection authority. Contact us at the address in Section 13 to exercise these rights.
 
-Local save data persists on your device until you uninstall the Game or use "Delete My Data." Cloud save data (Section 2b) persists on Google's servers until you delete it via "Delete My Data" or through your Google account settings. Analytics and crash data are retained by Firebase according to Google's own data retention policies.
+If you are a California resident, the CCPA/CPRA gives you similar rights to know, delete, and correct your personal information. We do not sell personal information for money. Ads served through Google AdMob may be considered "sharing" personal information (such as your Advertising ID) for cross-context behavioral advertising under CPRA's broad definition of that term; you can limit this through your device's ad personalization settings.
 
-8. SECURITY
+9. CHILDREN'S PRIVACY
 
-We rely on the security practices of Google's infrastructure (Firebase, Google Play Games, Google Play Billing, AdMob) for any data that leaves your device. No method of electronic storage or transmission is 100% secure, but we have not built and do not operate any of our own servers that could be independently compromised.
+The Game is a general-audience idle RPG and is not directed at children under 13. The online features (leaderboards and battles) are intended for players aged 16 or older, or the minimum age required by law in your country if higher. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, contact us at the address below so we can delete it.
 
-9. CHANGES TO THIS POLICY
+10. DATA RETENTION
+
+- Local save data: until you uninstall the Game or use "Delete My Data."
+- Cloud save (Google): until you delete it via "Delete My Data" or your Google account settings.
+- Game account and gameplay records on our servers: while your account is active, and deleted after 24 months of inactivity, or immediately upon your deletion request.
+- Analytics events on our servers: up to 14 months.
+- Server logs (including IP addresses): up to 30 days.
+- Backups: deleted data may remain in encrypted backups for up to 35 days before being permanently overwritten.
+- Firebase analytics and crash data: retained by Firebase under Google's own retention policies.
+
+11. SECURITY
+
+Data sent between the Game and our servers is encrypted in transit (HTTPS/TLS). We restrict access to our servers and databases and keep them updated. No method of electronic storage or transmission is 100% secure. If a data breach affecting your personal data occurs, we will notify you and the authorities as required by applicable law.
+
+12. CHANGES TO THIS POLICY
 
 We may update this Privacy Policy from time to time, for example when we add a new feature that changes what data is collected. The updated text will be reflected here and in the Game's Settings screen, with the "Last updated" date above revised accordingly. Continued use of the Game after a change means you accept the updated policy.
 
-10. CONTACT US
+13. CONTACT US
 
-If you have questions about this Privacy Policy or how your data is handled, contact us at:
+If you have questions about this Privacy Policy, want to exercise your rights, or want to request deletion of your data, contact us at:
 
 bagatoneinteractive@gmail.com

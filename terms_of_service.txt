@@ -1,12 +1,12 @@
 TERMS OF SERVICE
 
-Last updated: September 16, 2026
+Last updated: September 23, 2026
 
 These Terms of Service ("Terms") govern your use of Idle Pixel Runner RPG (the "Game"), published by Bagatone Interactive ("we," "us," "our"). By downloading, installing, or playing the Game, you agree to these Terms. If you do not agree, please do not use the Game.
 
 1. THE GAME
 
-Idle Pixel Runner RPG is a single-player, offline-first idle role-playing game for Android. There is no multiplayer, no chat, and no social interaction with other players of any kind.
+Idle Pixel Runner RPG is an idle role-playing game for Android whose core progress works offline. Starting with version 1.0.0.6 the Game also offers optional online features - leaderboards and player-versus-player battles - that run on our own servers (see Section 5). The Game has no chat or messaging between players.
 
 2. LICENSE TO USE
 
@@ -24,43 +24,53 @@ The Game features virtual currencies (gold and diamonds) used only within the Ga
 4. YOUR CONDUCT
 
 You agree not to:
-- Use any hack, cheat, exploit, bot, or third-party tool to modify the Game's behavior or falsify progress, currency, or purchases.
-- Attempt to gain unauthorized access to any part of the Game's infrastructure or the systems of our service providers (Google Play Games, Firebase, AdMob, Google Play Billing).
+- Use any hack, cheat, exploit, bot, emulator-based automation, modified version of the Game, or third-party tool to modify the Game's behavior or falsify progress, currency, purchases, leaderboard entries, or battle results.
+- Attempt to gain unauthorized access to, overload, probe, or disrupt any part of the Game's infrastructure, our servers, or the systems of our service providers (Google Play Games, Google Play Integrity, Firebase, AdMob, Google Play Billing).
+- Use offensive, hateful, or impersonating names or profile information in the online features, or harass other players in any way.
+- Manipulate results with multiple accounts, coordinated result-trading, or similar abuse.
 - Use the Game for any unlawful purpose.
 
-5. ADVERTISEMENTS
+5. ONLINE FEATURES AND FAIR PLAY
+
+The online features require a Google Play Games sign-in and an internet connection, and they are provided as an optional part of the Game. To keep competition fair, we verify progress and battle results on our servers and may use device and app integrity checks. If we find or reasonably suspect a violation of Section 4, we may, without notice and without compensation, remove leaderboard entries, reset or adjust competitive progress, restrict or suspend access to the online features, or terminate your game account. Our decisions about fair play are final to the extent permitted by law. We may change, pause, or remove any online feature, ranking rule, reward, or season at any time, including by remotely switching a feature off for security or stability reasons. Your Play Games display name and ranking information are visible to other players; details are in our Privacy Policy.
+
+6. ADVERTISEMENTS
 
 The Game may show optional rewarded video advertisements, served through Google AdMob, in exchange for an in-game bonus. Watching an ad is always your choice. We are not responsible for the content of third-party advertisements shown through AdMob.
 
-6. INTELLECTUAL PROPERTY
+7. INTELLECTUAL PROPERTY
 
 All game content - including but not limited to characters, artwork, animations, music, sound effects, code, and text - is owned by Bagatone Interactive or its licensors and is protected by copyright and other intellectual property laws. Nothing in these Terms transfers any ownership of that content to you.
 
-7. THIRD-PARTY SERVICES
+8. THIRD-PARTY SERVICES
 
-The Game relies on third-party services to function, including Google Play Games Services (cloud save), Firebase (analytics and crash reporting), Google AdMob (advertising), and Google Play Billing (purchases). Your use of these services is also subject to Google's own terms and policies. We are not responsible for the availability or behavior of these third-party services.
+The Game relies on third-party services to function, including Google Play Games Services (sign-in and cloud save), Google Play Integrity (integrity checks), Firebase (analytics and crash reporting), Google AdMob (advertising), Google Play Billing (purchases), and our hosting provider. Your use of these services is also subject to their own terms and policies. We are not responsible for the availability or behavior of these third-party services.
 
-8. DISCLAIMER OF WARRANTIES
+9. YOUR DATA
 
-The Game is provided "as is" and "as available," without warranties of any kind, whether express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the Game will be uninterrupted, error-free, or free of harmful components.
+How we collect, use, store, and delete your data is described in our Privacy Policy, which is part of these Terms. You can delete your data at any time using "Delete My Data" in the Game's Settings screen.
 
-9. LIMITATION OF LIABILITY
+10. DISCLAIMER OF WARRANTIES
+
+The Game is provided "as is" and "as available," without warranties of any kind, whether express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the Game or its online features will be uninterrupted, error-free, or free of harmful components.
+
+11. LIMITATION OF LIABILITY
 
 To the maximum extent permitted by applicable law, Bagatone Interactive shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, arising out of or related to your use of the Game, even if advised of the possibility of such damages. Our total liability for any claim arising from these Terms or the Game shall not exceed the amount you paid us, if any, in the twelve (12) months preceding the claim.
 
-10. TERMINATION
+12. TERMINATION
 
-We may suspend or discontinue the Game, or any feature of it, at any time, with or without notice. These Terms remain in effect until terminated by either party; you may terminate at any time by uninstalling the Game.
+We may suspend or discontinue the Game, or any feature of it, at any time, with or without notice, and may suspend or terminate your access to the online features as described in Section 5. These Terms remain in effect until terminated by either party; you may terminate at any time by uninstalling the Game.
 
-11. CHANGES TO THESE TERMS
+13. CHANGES TO THESE TERMS
 
 We may update these Terms from time to time, for example when we add a new feature or purchasable item. The updated text will be reflected here and in the Game's Settings screen, with the "Last updated" date above revised accordingly. Continued use of the Game after a change means you accept the updated Terms.
 
-12. GOVERNING LAW
+14. GOVERNING LAW
 
 These Terms are governed by the laws applicable in your country or region of residence, without regard to conflict-of-law principles, to the extent such laws apply to a digital product distributed through Google Play.
 
-13. CONTACT US
+15. CONTACT US
 
 If you have questions about these Terms, contact us at:
 
