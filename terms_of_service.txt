@@ -1,6 +1,6 @@
 TERMS OF SERVICE
 
-Last updated: September 23, 2026
+Last updated: September 24, 2026
 
 These Terms of Service ("Terms") govern your use of Idle Pixel Runner RPG (the "Game"), published by Bagatone Interactive ("we," "us," "our"). By downloading, installing, or playing the Game, you agree to these Terms. If you do not agree, please do not use the Game.
 
@@ -28,11 +28,12 @@ You agree not to:
 - Attempt to gain unauthorized access to, overload, probe, or disrupt any part of the Game's infrastructure, our servers, or the systems of our service providers (Google Play Games, Google Play Integrity, Firebase, AdMob, Google Play Billing).
 - Use offensive, hateful, or impersonating names or profile information in the online features, or harass other players in any way.
 - Manipulate results with multiple accounts, coordinated result-trading, or similar abuse.
+- Sell, trade, share, or transfer your account, or use another person's account or credentials.
 - Use the Game for any unlawful purpose.
 
 5. ONLINE FEATURES AND FAIR PLAY
 
-The online features require a Google Play Games sign-in and an internet connection, and they are provided as an optional part of the Game. To keep competition fair, we verify progress and battle results on our servers and may use device and app integrity checks. If we find or reasonably suspect a violation of Section 4, we may, without notice and without compensation, remove leaderboard entries, reset or adjust competitive progress, restrict or suspend access to the online features, or terminate your game account. Our decisions about fair play are final to the extent permitted by law. We may change, pause, or remove any online feature, ranking rule, reward, or season at any time, including by remotely switching a feature off for security or stability reasons. Your Play Games display name and ranking information are visible to other players; details are in our Privacy Policy.
+The online features require a game account (created by signing in with Google through Google Play Games, or by registering with an email address and password) and an internet connection, and they are provided as an optional part of the Game. You are responsible for keeping your account credentials confidential and for activity under your account; tell us promptly if you believe your account has been accessed without permission. To keep competition fair, we verify progress and battle results on our servers and may use device and app integrity checks. If we find or reasonably suspect a violation of Section 4, we may, without notice and without compensation, remove leaderboard entries, reset or adjust competitive progress, restrict or suspend access to the online features, or terminate your game account. Our decisions about fair play are final to the extent permitted by law. We may change, pause, or remove any online feature, ranking rule, reward, or season at any time, including by remotely switching a feature off for security or stability reasons. Your Play Games display name and ranking information are visible to other players; details are in our Privacy Policy.
 
 6. ADVERTISEMENTS
 
