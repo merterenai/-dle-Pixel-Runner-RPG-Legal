@@ -21,7 +21,7 @@
 <header class="crest">
   <a class="home" href="index.html">Idle Pixel Runner RPG</a>
   <div class="studio">Bagatone Interactive</div>
-  <div class="updated">Last updated: September 28, 2026</div>
+  <div class="updated">Last updated: October 6, 2026</div>
 </header>
 <main class="ledger">
   <nav class="tabs" aria-label="Documents">
@@ -36,7 +36,7 @@
 <ul>
 <li>The core game works offline and your progress is saved on your device.</li>
 <li>We never ask for your name, email address, phone number, or a password.</li>
-<li>To run the online features, our own servers keep a game account for you. It is created automatically with a random identifier; if you sign in with Google Play Games, your Play Games identity is linked to it.</li>
+<li>To run the online features, our own servers keep a game account for you. It is created automatically with a random identifier; you do not have to sign in. If you want, you can sign in with a Google account in Settings, which is then used only as an identifier so that the same Google account reaches the same game account on other phones.</li>
 <li>Other players can see your in-game name, friend code (if you share it), and battle and ranking information. The Game has no chat or messaging.</li>
 <li>Analytics and crash reports are sent only with your consent where the law requires it, and you can turn them off in Settings at any time.</li>
 <li>You can delete everything from Settings &gt; Delete My Data.</li>
@@ -46,33 +46,31 @@
 <section id="s2"><h2><span class="n">02</span> INFORMATION WE COLLECT</h2>
 <h3>a) Save data on your device</h3>
 <p>Your progress (stage, level, currencies, items, upgrades, allies, skills, goals) and your settings (sound, notifications, language, analytics choice) are stored on your device.</p>
-<h3>b) Google Play Games cloud save</h3>
-<p>If you sign in with Google Play Games, a backup copy of your save is stored on Google's servers using the Play Games Saved Games service, so you can continue on another device. Google holds this backup under its own privacy policy (<a href="https://policies.google.com/privacy" rel="noopener">https://policies.google.com/privacy</a>).</p>
-<h3>c) Your game account on our servers</h3>
+<h3>b) Your game account on our servers</h3>
 <ul>
 <li>Account identifier: a random identifier created by our server. Your device keeps a random secret key for it; our server stores only a one-way hash of that key.</li>
-<li>Play Games link: if you sign in with Google Play Games, we store a keyed one-way hash of your Play Games player ID (not the ID itself) so you can recover your account on a new device.</li>
+<li>Google link (optional): if you sign in with a Google account in Settings, we store a keyed one-way hash of that account's ID (not the ID itself, and no name or e-mail address) with your game account. The Game reads only the ID of the account you pick, once, and keeps no Google session.</li>
 <li>In-game name and friend code: your name is generated automatically (for example &quot;Guest-A1B2&quot;) and your friend code is random. You can change your name once in Settings; names must follow our rules and be unique. We keep your earlier names (up to 10) with your account, so that no one else can take them and so that we can handle reports; they are deleted together with your account.</li>
 <li>Game profile and progress: level, highest stage, and the hero statistics used in battles (for example damage, health, allies and skills), plus the progress reports the Game sends so our server can check that progress is genuine.</li>
 <li>Friends: your friends list, friend requests (sent and received), and players you have blocked.</li>
 </ul>
 <ul>
 <li>Clans: the clan you belong to (its name, code and level), your role in it and when you joined. A clan is a group of up to 30 players; it has no chat. Its level is worked out on our server from the highest stages its members have reached. When you leave, are removed from a clan or delete your data you leave the clan, and a clan without members is deleted. Clan names follow the same rules as player names.</li>
-<li>Save backup: the Game sends a copy of your whole save (the same data that is stored on your device, without device-only items such as the analytics queue) to our server when you open it and when it goes to the background. We keep the latest 10 copies and one per day for the last 7 days. It lets us restore your progress after a loss or a technical fault, and, if you ask us for help, put an earlier copy back on your device. Only the game operator can read or restore it, and it is deleted with your account.</li>
+<li>Save backup: the Game sends a copy of your whole save (the same data that is stored on your device, without device-only items such as the analytics queue) to our server when you open it and when it goes to the background. We keep the latest 10 copies and one per day for the last 7 days. This is the only online copy of your save: it lets you continue on a new phone by signing in with the same Google account (Settings &gt; Google account), and lets us restore your progress after a loss or a technical fault or, if you ask us for help, put an earlier copy back on your device. Only the game operator can read or restore it, and it is deleted with your account.</li>
 <li>Battles: results of friendly battles between friends, and for ranked battles your points, rank, wins, losses and draws, your match history (the last 50 matches, including opponents' in-game names), a hidden skill rating used for matchmaking, and the ranked rewards you have received. While a battle runs, our server also receives the moments you use your skills; these are only kept until the battle ends.</li>
 <li>Redeem codes: which codes your account has used.</li>
 <li>Reports: if you report another player, the reason you picked; if someone reports you, their report. Reports are reviewed by us.</li>
 <li>Fair-play records: if our checks flag your account as suspicious, or if an account is banned for cheating, we keep a record of that decision.</li>
 </ul>
-<h3>d) Analytics (with your consent where required)</h3>
+<h3>c) Analytics (with your consent where required)</h3>
 <p>The Game sends gameplay events (for example stage cleared, upgrade bought, session length, battle played) to our own servers under a random installation identifier that is not linked to your game account, together with the app version, device model and Android version. We use these events only to improve balance and features.</p>
-<h3>e) Crash and error reports (with your consent where required)</h3>
+<h3>d) Crash and error reports (with your consent where required)</h3>
 <p>If the Game crashes or hits an error, a technical report (error details, the last in-game steps before the error, app version, device model, Android version) is sent to our servers. Reports are filtered so that they do not contain your name, friend code or save data.</p>
-<h3>f) Server logs</h3>
+<h3>e) Server logs</h3>
 <p>Our servers record technical information about requests: the time, the request type, the result, the app version, a shortened form of your IP address (the last part is removed), and a pseudonymous form of your account identifier. We use these logs for security, abuse prevention and troubleshooting. Your full IP address is used only in memory, to limit how many requests one connection can make.</p>
-<h3>g) Advertising (Google AdMob)</h3>
+<h3>f) Advertising (Google AdMob)</h3>
 <p>The Game offers optional rewarded video ads; you choose when to watch one, and there are no forced ads. To serve and measure ads, Google AdMob may collect your device's Advertising ID and ad interaction data. In the European Economic Area, the United Kingdom and Switzerland, Google's consent form asks for your ad choices first.</p>
-<h3>h) In-app purchases (Google Play Billing)</h3>
+<h3>g) In-app purchases (Google Play Billing)</h3>
 <p>Payments are handled by Google Play. We never see your payment details; we only receive confirmation of a completed purchase so we can grant it.</p>
 </section>
 <section id="s3"><h2><span class="n">03</span> WHAT OTHER PLAYERS CAN SEE</h2>
@@ -97,7 +95,7 @@
 <p>We do not sell or rent your data. We share it only with:</p>
 <ul>
 <li>our hosting provider, Keyubu, which runs our servers on our behalf;</li>
-<li>Google, for Play Games, Play Billing and AdMob, each under Google's own terms;</li>
+<li>Google, for Play Billing, AdMob and the optional Google sign-in, each under Google's own terms;</li>
 <li>authorities, when the law requires it.</li>
 </ul>
 </section>
@@ -116,7 +114,7 @@
 <section id="s8"><h2><span class="n">08</span> HOW LONG WE KEEP DATA</h2>
 <ul>
 <li>Save data on your device: until you delete it or uninstall the Game.</li>
-<li>Cloud save (Google): until you use Delete My Data or delete it in your Google account.</li>
+<li>A cloud save made by an earlier version of the Game with Google Play Games Saved Games: the Game no longer reads or writes it; it stays with Google until you delete it in your Google account.</li>
 <li>Save backup copies on our servers: the latest 10 and one per day for 7 days, and all of them are deleted with your account.</li>
 <li>Game account and everything linked to it (friends, clan membership, battles, rankings, rewards, redeemed codes): while you use it; deleted automatically after 24 months without any activity, or immediately when you use Delete My Data.</li>
 <li>Friend requests: 30 days if not answered.</li>
@@ -131,8 +129,8 @@
 </section>
 <section id="s9"><h2><span class="n">09</span> YOUR CHOICES AND RIGHTS</h2>
 <ul>
-<li>Delete My Data (Settings): permanently erases your save on this device, your Play Games cloud save, your game account and every record linked to it on our servers, and the analytics events sent under this installation's identifier. It cannot be undone. If our servers cannot be reached at that moment, the Game retries the server deletion the next time it can.</li>
-<li>Delete without the Game: email us at the address in Section 13 with your in-game name or friend code; we may ask for details to confirm the account is yours, and we answer within 30 days. When we delete your account this way, the Game on your phone also deletes its save (and your Play Games cloud save) the next time it connects to our servers.</li>
+<li>Delete My Data (Settings): permanently erases your save on this device, your game account and every record linked to it on our servers, and the analytics events sent under this installation's identifier. It cannot be undone. If our servers cannot be reached at that moment, the Game retries the server deletion the next time it can.</li>
+<li>Delete without the Game: email us at the address in Section 13 with your in-game name or friend code; we may ask for details to confirm the account is yours, and we answer within 30 days. When we delete your account this way, the Game on your phone also deletes its save the next time it connects to our servers.</li>
 <li>Analytics and crash reports: switch them off at any time in Settings &gt; Analytics.</li>
 <li>Ads: manage ad personalization in your Android settings (Google &gt; Ads) and, where shown, in Google's consent form.</li>
 <li>Google data: manage what Google holds at <a href="https://myaccount.google.com" rel="noopener">https://myaccount.google.com</a>.</li>
